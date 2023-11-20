@@ -1,0 +1,19 @@
+* {
+    background-color: rgb(216, 245, 253);
+    color: rgb(1, 84, 172);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(172, 168, 221);
+    padding: 30px;
+    font-size: large;
+}
