@@ -9,6 +9,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     text-align: center;
     padding: 30px;
@@ -38,7 +42,7 @@
 .about, .work, .contact {
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
     font-size: larger;
 }
 
@@ -51,17 +55,28 @@
     padding: 5px;
     border-right: 3px solid var(--blue);
     align-items: center;
-    background-color: var(--nav);
 }
 
 
 .horiseon {
-    width: 100%;
+    width: 75%;
     height: auto;
     padding: 60px;
     margin: 50px;
     display: block;
 }
+
+.image-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-title {
+    font-size: large;
+    margin-top: -10px;
+}
+
 
 
 /* Tablet mode */
